@@ -151,7 +151,7 @@ nav {
     height: calc(100vh - 33px);
 }
 
-.activity-content{
+.activity-content {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -160,8 +160,28 @@ nav {
     border-bottom-right-radius: 10px;
 }
 
-.imgActivity{
+.imgActivity {
     margin-top: 20px;
     width: 250px;
     height: 250px;
+}
+
+.description {
+    width: 80%;
+    border: 1px solid rgb(201, 201, 201);
+    padding: 10px;
+    color: rgb(77, 77, 77);
+    text-align: justify;
+    font-size: 14px;
+    border-radius: 20px;
+    margin-bottom: 15px;
+}
+
+.activityTitle {
+    padding: 10px 34% 10px 34%;
+    background-color: black;
+    font-weight: 600;
+    color: white;
+    border-radius: 30px;
+    margin-top: 10px;
 }
